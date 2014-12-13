@@ -1,0 +1,62 @@
+<?php
+
+/* 
+
+# Diterjemahkan oleh eggoez - http://eg.goez.tk
+
+# Bila ada kesalahan baik secara penulisan atau ucapan kata
+
+# Silahkan laporkan lewat e-mail di eggoez@yahoo.com
+
+# Hargailah Karya Orang Lain dengan tidak Merubah Isi &
+
+# Terimakasih sudah menggunakan Bahasa Indonesia :)
+
+*/
+
+$lang['plugin']['qspam'] = array(
+
+	'error' => 'Ops.. Gagal: Komentar mengandung kata kotor atau jorok yang tidak di-izinkan'
+
+);
+
+
+
+$lang['admin']['plugin']['submenu']['qspam'] = 'QuickSpamFilter';
+
+$lang['admin']['plugin']['qspam'] = array(
+
+	'head' => 'Konfigurasi QuickSpam',
+
+	'desc1' => 'Kamu bisa memasukkan kata jelek atau kotor yang tidak di-izinkan pada komentar Kamu (tulis perbaris) :',
+
+	'desc2' => '<strong>Ingat:</strong> Sebuah komentar tidak dibolehkan untuk menggunakan kata lain. 
+
+	
+
+	(contoh. "old" menjadi"b<em>old</em>" dsb)',
+
+	'options' => 'Pilihan lain',
+
+	'desc3' => 'Penyaringan kata',
+
+	'desc3pre' => 'Akan diblokir apabila mengandung',
+
+	'desc3post' => ' huruf dari kata kotor(s).',
+
+	'submit' => 'Simpan konfigurasi',
+
+	'msgs' => array(
+
+		1 => 'Sip.. Kata kotor berhasil disimpan',
+
+		-1 => 'Ops.. Kata masukan tidak berhasil disimpan.'
+
+	)
+
+);
+
+
+
+?>
+
